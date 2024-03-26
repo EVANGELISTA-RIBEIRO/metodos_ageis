@@ -1,0 +1,10 @@
+[tool.poetry]
+name = "metodos_ageis"
+version = "0.0.1"
+description = ""
+authors = ["Joao Victor <joaovictor.setembro@gmail.com>"]
+license = "Unlicense"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+flet = "^0.20.2"
