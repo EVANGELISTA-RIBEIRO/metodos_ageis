@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 @font-face {
     font-family: myfont;
-    src: url(fonts/Headliner.ttf)
+    src: url(/fonts/Headliner.ttf)
 }
 
 * {
@@ -50,7 +50,7 @@ header {
 }
 
 main {
-    background: url(images/be6eaca.jpg) no-repeat;
+    background: url(/images/be6eaca.jpg) no-repeat;
     background-size: cover;
     height: 92vh;
 
