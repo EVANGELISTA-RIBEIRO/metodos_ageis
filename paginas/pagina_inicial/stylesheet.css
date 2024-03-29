@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@font-face {
+    font-family: myfont;
+    src: url(Headliner.ttf);
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+li, a {
+    text-decoration: none;
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: black;
+    height: 8vh;
+}
+
+.logo{
+    cursor: pointer;
+    height: 50px;
+}
+
+.icon_profile {
+    height: 30px;
+}
+
+.nav_links {
+    list-style: none;   
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+    transition: all 0.3s ease 0s;
+}
+
+main {
+    background: url(images/be6eaca.jpg) no-repeat;
+    background-size: cover;
+    height: 92vh;
+
+}
+
+.button_acess {
+    background-color: black;
+    border: transparent;
+    color: white;
+    font-weight: bold;
+}
+
+.title {
+    font-family: myfont;
+    font-size: 100px;
+}
