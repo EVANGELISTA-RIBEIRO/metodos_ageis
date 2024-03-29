@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 @font-face {
     font-family: myfont;
-    src: url(Headliner.ttf);
+    src: url(fonts/Headliner.ttf)
 }
 
 * {
