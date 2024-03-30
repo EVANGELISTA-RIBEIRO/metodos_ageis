@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "metodos_ageis"
-version = "0.0.2a3"
+version = "0.0.2a4"
 description = ""
 authors = ["Joao Victor <joaovictor.setembro@gmail.com>"]
 license = "Unlicense"
