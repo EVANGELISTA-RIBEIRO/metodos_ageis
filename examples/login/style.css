@@ -1,0 +1,147 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    background-image: url(Imagens/imagem-background.png);
+    background-position: top;
+}
+
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(228, 228, 228);
+}
+
+#header{
+    height: 90px;
+    background-color: #111021;
+}
+
+#imgLogo{
+    position: relative;
+    top: 10px;
+    left: 32px;
+}
+
+#home{
+    position: relative;
+    left: 1200px;
+    bottom: 10px;
+}
+
+#imagem-background{
+    position: absolute;
+    top: 90px;
+    width: 100%em;
+    
+}
+
+#conteudo{
+    position: absolute;
+    top: 90px;
+    left: 39%;
+    text-align: center;
+}
+
+#formulario{
+    width: 530px;
+    height: 50px;
+}
+
+#iniciarSessao{
+    position: relative;
+    left: 10px;
+    font-size: 3em;
+}
+
+section.formulario{
+    padding: 5px 1%;
+}
+
+form{
+    max-width: 530px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form input{
+    width: 100%;
+    background-color: #2d2d33ab;
+    border: 0;
+    outline: 0;
+    padding: 20px 15px;
+    border-radius: 15px;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+form input::placeholder{
+    color: #ffffff;
+}
+
+form .btn-enviar{
+    margin-top: 20px;
+    margin-left: 30px;
+    text-align: center;
+}
+
+form .btn-enviar input{
+    width: 120px;
+    background-color: #993399;
+    color: #000000;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.checkbox{
+    position: relative;
+    margin-top: 20px;
+    right: 80px;
+    font-weight: 700;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #f8f8f8;
+}
+
+.checkbox input{
+    display: none;
+}
+
+.checkbox input + label:before{
+    content: '';
+    width: 18px;
+    height: 18px;
+    border-radius: 4px;
+    background-color: white;
+    border: 1px solid gray;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+.checkbox input:checked + label:before {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' x='0px' y='0px' width='18' height='18' viewBox='0 0 50 50'%3E%3Cpath d='M 41.9375 8.625 C 41.273438 8.648438 40.664063 9 40.3125 9.5625 L 21.5 38.34375 L 9.3125 27.8125 C 8.789063 27.269531 8.003906 27.066406 7.28125 27.292969 C 6.5625 27.515625 6.027344 28.125 5.902344 28.867188 C 5.777344 29.613281 6.078125 30.363281 6.6875 30.8125 L 20.625 42.875 C 21.0625 43.246094 21.640625 43.410156 22.207031 43.328125 C 22.777344 43.242188 23.28125 42.917969 23.59375 42.4375 L 43.6875 11.75 C 44.117188 11.121094 44.152344 10.308594 43.78125 9.644531 C 43.410156 8.984375 42.695313 8.589844 41.9375 8.625 Z'%3E%3C/path%3E%3C/svg%3E");
+
+    background-color:#993399;
+}
+
+.links{
+    font-size: 20px;
+    font-weight: 500;
+    padding: 20px;
+}
+
+a{
+    color:#ffffff;
+}
+
+#Esqueci{
+    position: relative;
+    right: 50px;
+}
+
+#Criar{
+    position: relative;
+    left: 50px;
+}
